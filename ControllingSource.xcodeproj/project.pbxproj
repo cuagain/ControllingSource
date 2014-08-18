@@ -125,13 +125,8 @@
 			children = (
 				D32D9DFE19A2119100A47040 /* ERGAppDelegate.h */,
 				D32D9DFF19A2119100A47040 /* ERGAppDelegate.m */,
-				D32D9E0119A2119100A47040 /* Main.storyboard */,
-				D32D9E0719A2119100A47040 /* ERGMasterViewController.h */,
-				D32D9E0819A2119100A47040 /* ERGMasterViewController.m */,
-				D32D9E0A19A2119100A47040 /* ERGDetailViewController.h */,
-				D32D9E0B19A2119100A47040 /* ERGDetailViewController.m */,
-				D32D9E0D19A2119100A47040 /* Images.xcassets */,
-				D32D9E0419A2119100A47040 /* ControllingSource.xcdatamodeld */,
+				D32D9E2C19A2135100A47040 /* Resources */,
+				D32D9E2B19A2133800A47040 /* View Controllers */,
 				D32D9DF619A2119100A47040 /* Supporting Files */,
 			);
 			path = ControllingSource;
@@ -164,6 +159,27 @@
 				D32D9E1E19A2119100A47040 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D32D9E2B19A2133800A47040 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D32D9E0719A2119100A47040 /* ERGMasterViewController.h */,
+				D32D9E0819A2119100A47040 /* ERGMasterViewController.m */,
+				D32D9E0A19A2119100A47040 /* ERGDetailViewController.h */,
+				D32D9E0B19A2119100A47040 /* ERGDetailViewController.m */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		D32D9E2C19A2135100A47040 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D32D9E0119A2119100A47040 /* Main.storyboard */,
+				D32D9E0D19A2119100A47040 /* Images.xcassets */,
+				D32D9E0419A2119100A47040 /* ControllingSource.xcdatamodeld */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
